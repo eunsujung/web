@@ -16,6 +16,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 16.x
-      - run: npm build
+      - run: npm install
         env:
           GH_TOKEN: ${{ secrets.WEB_ACTION_SECRET }}
