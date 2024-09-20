@@ -64,8 +64,9 @@ require('./apis/api1.js').reqRes(nsPsBundle);
 var  server =  http.createServer(app);
 server.listen(info.HTTP_PORT_PROD, '0.0.0.0', function(){
     console.log('### Created http ipv4 server port:', info.HTTP_PORT_PROD, '###');
-    console.log('github action....')
-    console.log('github action....')
+    console.log('github action....1')
+    console.log('github action....2')
+    console.log('github action....3')
 
     // console.log('### Mysql server:', info.MYSQL_SERVER_PROD, '###');
 });
